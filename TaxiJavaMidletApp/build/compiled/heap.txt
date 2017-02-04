@@ -1,0 +1,68 @@
+/*while (total < MAX_LENGTH) {
+
+                midlet.ConnectionFormMenu.messageLabel.setText(
+                    midlet.ConnectionFormMenu.messageLabel.getText()+
+                    "\nНачинаю читать!"+total);
+
+                int count = is.read(buf, total, MAX_LENGTH - total);
+
+                midlet.ConnectionFormMenu.messageLabel.setText(
+                    midlet.ConnectionFormMenu.messageLabel.getText()+"\nПолучаю данные!"+count);
+
+
+
+                if ((count <= 0)||(is==null)) {
+                    break;
+                }
+
+                total += count;
+
+                if (count<MAX_LENGTH) {
+                    //break;
+                }
+
+            }*/
+================================
+//Alert alert = new Alert("I/O Error",
+            //            "An error occurred while communicating with the server.",
+            //            null, AlertType.ERROR);
+            //alert.setTimeout(Alert.FOREVER);
+            //display.setCurrent(alert, addressForm);
+================================
+/*try {
+            final Reader in = new InputStreamReader(is, "UTF-8");
+                try {
+                    for (;;) {
+                        int rsz = in.read
+                                (buffer, 0, buffer.length);
+                        if (rsz < 0)
+                            break;
+                        //out.append(buffer, 0, rsz);
+                        String append = new String(buffer, 0, rsz);
+                        reply=reply+append;
+                    }
+                    }
+                finally {
+                    in.close();
+                    }
+                }
+                catch (UnsupportedEncodingException ex) {
+
+                }
+                catch (IOException ex) {
+
+                }
+                return out.toString();*/
+==============================
+//final int MAX_LENGTH = 128;
+            //byte[] buf = new byte[MAX_LENGTH];
+            //int total = 0;
+            //String reply = "";
+            //final char[] buffer = new char[128];
+==============================
+//Alert alert = new Alert(
+            //    "Ошибка!", "Сокет не инициализирован!", null, null);
+            //alert.setTimeout(Alert.FOREVER);
+            //alert.setType(AlertType.ERROR);
+            //display.setCurrent(alert);
+==============================
